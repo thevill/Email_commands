@@ -4,8 +4,8 @@ import sys
 import email_command_fin
 
 host = 'imap.gmail.com'
-username = 'testforbatterypercentage@gmail.com'
-password = "hihrlvhxyorraiuk"
+username = 'your-mail-id'
+password = "your-password"
 
 def get_inbox():
     mail = imaplib.IMAP4_SSL(host)
@@ -28,6 +28,6 @@ def get_inbox():
 
 
 my_inbox = get_inbox()
-sys.stdout = open(r"C:\Users\prana\Documents\out.txt", "w")
+sys.stdout = open(r"path-to-output-text-file", "w")
 print(my_inbox)
-exec(open('C:\\Users\\prana\\Documents\\email_command_fin.py').read())
+exec(open('email_command_fin.py').read())
