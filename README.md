@@ -8,4 +8,4 @@ This program can be used for automation.
 
 PLEASE MAKE APPROPRIATE CHANGES IN THE PROGRAM BEFORE RUNNING (EX: email-id, password, path to files).
 
-**Run fetch_email.py***
+**Run fetch_email.py**
