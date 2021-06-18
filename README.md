@@ -7,3 +7,5 @@ This program utilizes Gmail's API and https://github.com/codingforentrepreneurs/
 This program can be used for automation.
 
 PLEASE MAKE APPROPRIATE CHANGES IN THE PROGRAM BEFORE RUNNING (EX: email-id, password, path to files).
+
+Run email_command.py
