@@ -1,3 +1,6 @@
+#created by Pranay Wajjala
+#greenscizor
+
 import email
 import imaplib
 import sys
