@@ -4,7 +4,7 @@
 import email
 import imaplib
 import sys
-import email_command_fin
+import command_execute
 
 host = 'imap.gmail.com'
 username = 'your-mail-id'
@@ -33,4 +33,4 @@ def get_inbox():
 my_inbox = get_inbox()
 sys.stdout = open(r"path-to-output-text-file", "w")
 print(my_inbox)
-exec(open('email_command_fin.py').read())
+exec(open('command_execute.py').read())
